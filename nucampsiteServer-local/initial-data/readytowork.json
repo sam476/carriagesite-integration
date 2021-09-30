@@ -1,18 +1,18 @@
 [
   {
     "_id": {
-      "$oid": "614decf8716a268598390350"
+      "$oid": "6155a1e4753c9b93dc78e333"
     },
-    "name": "sam",
+    "name": "Sam",
     "image": "images/node-logo.png",
     "email": "samgel939@gmail.com",
-    "phone": 6084672330,
+    "phone": "608-467-2330",
     "location": "Madison",
     "createdAt": {
-      "$date": "2021-09-24T15:21:28.685Z"
+      "$date": "2021-09-30T11:39:16.572Z"
     },
     "updatedAt": {
-      "$date": "2021-09-24T15:21:28.685Z"
+      "$date": "2021-09-30T11:39:16.572Z"
     },
     "__v": 0
   }

@@ -4,6 +4,10 @@ const Schema = mongoose.Schema;
 require('mongoose-currency').loadType(mongoose);
 
 const readytoworkSchema = new Schema({
+  cleaner: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Cleaner'
+  },
   name: {
     type: String,
     required: true,
@@ -14,7 +18,7 @@ const readytoworkSchema = new Schema({
     required: true
   },
   phone: {
-    type: Number,
+    type: String,
     required: true
   },
   location: {
